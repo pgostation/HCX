@@ -1,0 +1,107 @@
+2013/03/28  HCXプロジェクト作成
+2013/03/29  xibファイル消してAppDelegateを登録してやればいいと。
+            メニュー作成、ファイルオープンダイアログ
+2013/03/30  stackimport.app タスク起動、aboutウィンドウ
+            info.plistのDocument Typesの設定。ドロップ対応やHyperCardのアイコンなど。
+            CarbonのリソースAPIはdeprecatedなのでtarにする
+            packageってどうやって作るのか→xattrコマンドで実現
+            　　http://code.google.com/p/theunarchiver/wiki/MacBinarySpecs
+2013/03/31  ICON, cicnリソースの変換ができるように
+　　　　　　　PICT→PICTファイル
+            SND→AIFF暫定対応
+2013/04/01  CURS, ppatリソースの変換ができるように
+            packageにカスタムアイコンつけるの難しい
+            リソースをlistに登録
+            データフォークの読み込みに手を付ける
+2013/04/02  データフォーク読み込み(ベース部分、STAKブロック)
+2013/04/03  データフォーク読み込み
+2013/04/04  データフォーク読み込み
+2013/04/06  データフォーク読み込み
+            カードピクチャのコンバートができるように
+            リソースとデータをGCDで並列読み込み→CoreGraphicsはメインスレッドからのみでは？→やめやめ
+            HCX:155  stackimport:4114
+2013/04/07  処理をperformSelectorで遅延実行するようにしてtextField表示は更新するようになった。
+            バーは[progressIndicator setIndeterminate:NO]; でスタイル変えなあかんかった。
+            HC変換のXML出力作成中  バグが多い。
+            HCX:197  stackimport:5674
+2013/04/08  スタック変換読み込みのバグ修正
+2013/04/09  スタック変換読み込みのバグ修正
+2013/04/10  stackimportをNSTaskではなくlaunchApplicationで起動
+            アプリ間通知はNSDistributedNotificationCenter
+            HCX:185  stackimport:5693
+2013/04/13  XMLパース、スタックデータ構造
+            HCX:705  stackimport:5715
+2013/04/17  スタックデータ構造
+            HCX:811  stackimport:5715
+2013/04/18  複数スタック開く
+            HCX:949  stackimport:5715
+2013/04/19  ボタンとフィールドを単に表示
+2013/04/20  カードピクチャ用のView
+            メニューをそれっぽくする
+            次のカードに移動
+            透明ボタンの色反転を実現（裏画面に書いてそれをbitmap直接いじって反転）
+            ボタン、フィールドの見た目を実現
+            ツールパレット作成中
+            HCX:2463  stackimport:5735
+2013/04/21  ツールパレットの再描画されないのがsetWantsLayer:YESでうまくいくのはなぜ
+            ツールパレットからのドラッグアンドドロップでのボタン・フィールドの追加を実現
+            ボタンツールのときはボタンに枠を、フィールドツールのときはフィールドに枠を表示
+            オーサリング時にクリックしたボタンを選択
+            オーサリングパレットをとりあえず表示
+            HCX:3739  stackimport:5735
+2013/04/22  オーサリングパレットの中身を作る
+            ウィンドウサイズが変更可能になるはず
+2013/04/23  オーサリングパレットのtitleが更新されない問題に対処。NSPanelはおかしい。
+            オーサリングパレットの中身を作る
+                 オーサリングパレットの中身を表示
+            bg partのcontent読み込みに対応
+            国際化の仕組み作る
+            HCX:4510  stackimport:5741
+2013/04/24  文字列の日本語化
+            アイコン付きボタンの名前表示にCoreGraphicsやCoreTextで四苦八苦していたがDrawInRectで良いというお話
+2013/04/25  オーサリングパレットの中身を作る
+2013/04/26  ボタンのスタイル選択
+            オーサリング時のボタン、フィールド選択の処理修正
+            mouseMovedとか受け取れるように
+            ボタンの端でカーソル形状で変える
+            ボタンの大きさ変更、作業中
+            HCX:5449  stackimport:5741
+2013/05/02  オーサリング時の枠線処理をまともにする
+2013/05/03  オーサリング時のボタン移動をまともにする
+            
+cat /Users/takayoshi/Documents/Cocoa練習/HCX/HCX/*.m | wc -l
+cat /Users/takayoshi/Documents/Cocoa練習/HCX/stackimport/stackimport/*.m | wc -l
+
+--------
+■BUG LIST
+
+--------
+■優先順位
+//・ファイル選択ダイアログ
+//・HCスタックを読み込んでJSONかXMLにする
+　//(StackSmith互換モードでXML, PBM対応
+　//リソース変換
+//・XMLを読み込む
+  //NSXMLParser
+  //複数スタック対応する
+  //(テストも考慮
+・オーサリング環境
+　//(表示部分、IOやパレットやメッセージウィンドウの別スレッド化。
+　//構造分離、スクリプトからの制御などやりやすく。
+　//ダイアログじゃなくインスペクタパネルを多用する
+　//(iOS対応も視野に
+・XMLに書き出す
+・スクリプトエディタ
+　デバッガ
+・HyperTalkエンジン
+  高速化のために中間言語にする
+・ペイント環境
+・ドロー環境
+　GCDrawKit
+・リソースエディタ
+　単体でresedit osxとなる
+・HCjs連携、HyperTalkなので　HCjsで動かせる
+・XCMD
+・スタック200個で確認
+・mac appstore
+  Appleの開発者code sign取得

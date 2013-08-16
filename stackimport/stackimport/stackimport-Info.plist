@@ -22,55 +22,25 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>LSApplicationCategoryType</key>
-	<string>public.app-category.education</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2013年 pgostation. All rights reserved.</string>
+	<key>NSMainNibFile</key>
+	<string></string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
-			<key>LSTypeIsPackage</key>
-			<true/>
-			<key>CFBundleTypeIconFile</key>
-			<string>HCXIcon</string>
 			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>CFBundleTypeExtensions</key>
-			<array>
-				<string>hcxs</string>
-			</array>
-			<key>CFBundleTypeName</key>
-			<string>HCX Stack</string>
-			<key>LSHandlerRank</key>
-			<string>Owner</string>
-		</dict>
-		<dict>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>CFBundleTypeExtensions</key>
-			<array>
-				<string>xstk</string>
-			</array>
-			<key>CFBundleTypeName</key>
-			<string>Stacksmith Stack</string>
-			<key>LSHandlerRank</key>
-			<string>None</string>
-		</dict>
-		<dict>
-			<key>CFBundleTypeIconFile</key>
-			<string>HyperCardIcon</string>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
+			<string>Viewer</string>
 			<key>CFBundleTypeOSTypes</key>
 			<array>
-				<string>STAK</string>
+				<string>****</string>
 			</array>
 			<key>CFBundleTypeName</key>
-			<string>HyperCard Stack</string>
+			<string>Any File</string>
 			<key>LSHandlerRank</key>
-			<string>Owner</string>
+			<string>None</string>
 		</dict>
 	</array>
 	<key>NSPrincipalClass</key>

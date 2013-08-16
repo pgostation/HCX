@@ -7,15 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120E6E451722AF7600053FF0 /* HCXUIField.m in Sources */ = {isa = PBXBuildFile; fileRef = 120E6E441722AF7600053FF0 /* HCXUIField.m */; };
+		120E6E491722CD1A00053FF0 /* HCXToolPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 120E6E481722CD1A00053FF0 /* HCXToolPanel.m */; };
+		120E6E4D1722D38F00053FF0 /* HCXToolPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 120E6E4C1722D38F00053FF0 /* HCXToolPanelView.m */; };
 		12340A93170490620022A7ED /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12340A92170490620022A7ED /* Cocoa.framework */; };
 		12340A9D170490630022A7ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12340A9B170490630022A7ED /* InfoPlist.strings */; };
 		12340A9F170490630022A7ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12340A9E170490630022A7ED /* main.m */; };
 		12340AA3170490630022A7ED /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 12340AA1170490630022A7ED /* Credits.rtf */; };
 		12340AA6170490630022A7ED /* HCXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12340AA5170490630022A7ED /* HCXAppDelegate.m */; };
-		12340AA9170490630022A7ED /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12340AA7170490630022A7ED /* MainMenu.xib */; };
+		12340AB51705D7B70022A7ED /* HCXDoMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 12340AB41705D7B70022A7ED /* HCXDoMenu.m */; };
+		12775F7417202C92002FB1E5 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12775F7317202C92002FB1E5 /* CardView.m */; };
+		12775F7C17221F12002FB1E5 /* HCXPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12775F7B17221F12002FB1E5 /* HCXPictureView.m */; };
+		12775F801722359C002FB1E5 /* HCXScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 12775F7F1722359C002FB1E5 /* HCXScript.m */; };
+		12775F831722564B002FB1E5 /* HCXMakeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 12775F821722564A002FB1E5 /* HCXMakeMenu.m */; };
+		12775F8617225715002FB1E5 /* HCXUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 12775F8517225715002FB1E5 /* HCXUIButton.m */; };
+		12775F8917228569002FB1E5 /* HCXUIPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 12775F8817228569002FB1E5 /* HCXUIPopup.m */; };
+		1297C85A1723525F00EBAFF7 /* tb_Browse.png in Resources */ = {isa = PBXBuildFile; fileRef = 1297C84C1723525F00EBAFF7 /* tb_Browse.png */; };
+		1297C85B1723525F00EBAFF7 /* tb_Brush.png in Resources */ = {isa = PBXBuildFile; fileRef = 1297C84D1723525F00EBAFF7 /* tb_Brush.png */; };
+		1297C85C1723525F00EBAFF7 /* tb_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1297C84E1723525F00EBAFF7 /* tb_Button.png */; };
+		1297C85D1723525F00EBAFF7 /* tb_Eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 1297C84F1723525F00EBAFF7 /* tb_Eraser.png */; };
+		1297C85E1723525F00EBAFF7 /* tb_Field.png in Resources */ = {isa = PBXBuildFile; fileRef = 1297C8501723525F00EBAFF7 /* tb_Field.png */; };
+		1297C85F1723525F00EBAFF7 /* tb_Lasso.png in Resources */ = {isa = PBXBuildFile; fileRef = 1297C8511723525F00EBAFF7 /* tb_Lasso.png */; };
+		1297C8601723525F00EBAFF7 /* tb_Line.png in Resources */ = {isa = PBXBuildFile; fileRef = 1297C8521723525F00EBAFF7 /* tb_Line.png */; };
+		1297C8611723525F00EBAFF7 /* tb_MagicWand.png in Resources */ = {isa = PBXBuildFile; fileRef = 1297C8531723525F00EBAFF7 /* tb_MagicWand.png */; };
+		1297C8621723525F00EBAFF7 /* tb_Oval.png in Resources */ = {isa = PBXBuildFile; fileRef = 1297C8541723525F00EBAFF7 /* tb_Oval.png */; };
+		1297C8631723525F00EBAFF7 /* tb_PaintBucket.png in Resources */ = {isa = PBXBuildFile; fileRef = 1297C8551723525F00EBAFF7 /* tb_PaintBucket.png */; };
+		1297C8641723525F00EBAFF7 /* tb_Pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 1297C8561723525F00EBAFF7 /* tb_Pencil.png */; };
+		1297C8651723525F00EBAFF7 /* tb_Rect.png in Resources */ = {isa = PBXBuildFile; fileRef = 1297C8571723525F00EBAFF7 /* tb_Rect.png */; };
+		1297C8661723525F00EBAFF7 /* tb_Select.png in Resources */ = {isa = PBXBuildFile; fileRef = 1297C8581723525F00EBAFF7 /* tb_Select.png */; };
+		1297C8671723525F00EBAFF7 /* tb_Type.png in Resources */ = {isa = PBXBuildFile; fileRef = 1297C8591723525F00EBAFF7 /* tb_Type.png */; };
+		1297C86B172355A400EBAFF7 /* HCXToolBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1297C86A172355A400EBAFF7 /* HCXToolBtn.m */; };
+		1297C86E1723732E00EBAFF7 /* HCXDraggableToolBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1297C86D1723732E00EBAFF7 /* HCXDraggableToolBtn.m */; };
+		1297C8751723D76700EBAFF7 /* HCXAuthoringPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1297C8741723D76700EBAFF7 /* HCXAuthoringPanel.m */; };
+		1297C87B1726C16800EBAFF7 /* HCXInternational.m in Sources */ = {isa = PBXBuildFile; fileRef = 1297C87A1726C16700EBAFF7 /* HCXInternational.m */; };
+		129A2F77171EF0DE0089E3AF /* StackEnv.m in Sources */ = {isa = PBXBuildFile; fileRef = 129A2F76171EF0DE0089E3AF /* StackEnv.m */; };
+		12FEEF121715BCBD00E03D12 /* HCXReadXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEEF111715BCBD00E03D12 /* HCXReadXML.m */; };
+		12FEEF161715BD9C00E03D12 /* HCXStackData.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEEF151715BD9C00E03D12 /* HCXStackData.m */; };
+		12FEEF1917195B2D00E03D12 /* HCXObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEEF1817195B2D00E03D12 /* HCXObject.m */; };
+		12FEEF1C17195B3E00E03D12 /* HCXBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEEF1B17195B3E00E03D12 /* HCXBackground.m */; };
+		12FEEF1F17195B4800E03D12 /* HCXCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEEF1E17195B4800E03D12 /* HCXCard.m */; };
+		12FEEF221719655200E03D12 /* HCXCardBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEEF211719655200E03D12 /* HCXCardBase.m */; };
+		12FEEF25171965A400E03D12 /* HCXPart.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEEF24171965A400E03D12 /* HCXPart.m */; };
+		12FEEF28171965BA00E03D12 /* HCXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEEF27171965BA00E03D12 /* HCXButton.m */; };
+		12FEEF2B171965C300E03D12 /* HCXField.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEEF2A171965C300E03D12 /* HCXField.m */; };
+		12FEEF2E171965CC00E03D12 /* HCXWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEEF2D171965CC00E03D12 /* HCXWindow.m */; };
+		12FEEF31171966B300E03D12 /* HCXPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEEF30171966B300E03D12 /* HCXPalette.m */; };
+		12FEEF34171966D500E03D12 /* HCXMsgWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEEF33171966D400E03D12 /* HCXMsgWindow.m */; };
+		12FEEF3717198A7200E03D12 /* HCXBgPart.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEEF3617198A7100E03D12 /* HCXBgPart.m */; };
+		12FEEF3A17198C2E00E03D12 /* HCXRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEEF3917198C2D00E03D12 /* HCXRes.m */; };
+		12FEEF3D1719AE9200E03D12 /* HCXExternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEEF3C1719AE9100E03D12 /* HCXExternal.m */; };
+		12FEEF40171A38F200E03D12 /* HCXResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEEF3F171A38F200E03D12 /* HCXResource.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		12340AE51706593B0022A7ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12340AE11706593B0022A7ED /* stackimport.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 12340AC11706593A0022A7ED;
+			remoteInfo = stackimport;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		120E6E431722AF7600053FF0 /* HCXUIField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXUIField.h; sourceTree = "<group>"; };
+		120E6E441722AF7600053FF0 /* HCXUIField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXUIField.m; sourceTree = "<group>"; };
+		120E6E471722CD1A00053FF0 /* HCXToolPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXToolPanel.h; sourceTree = "<group>"; };
+		120E6E481722CD1A00053FF0 /* HCXToolPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXToolPanel.m; sourceTree = "<group>"; };
+		120E6E4B1722D38F00053FF0 /* HCXToolPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXToolPanelView.h; sourceTree = "<group>"; };
+		120E6E4C1722D38F00053FF0 /* HCXToolPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXToolPanelView.m; sourceTree = "<group>"; };
 		12340A8F170490620022A7ED /* HCX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12340A92170490620022A7ED /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		12340A95170490620022A7ED /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -28,7 +88,78 @@
 		12340AA2170490630022A7ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		12340AA4170490630022A7ED /* HCXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCXAppDelegate.h; sourceTree = "<group>"; };
 		12340AA5170490630022A7ED /* HCXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCXAppDelegate.m; sourceTree = "<group>"; };
-		12340AA8170490630022A7ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		12340AB31705D7B70022A7ED /* HCXDoMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXDoMenu.h; sourceTree = "<group>"; };
+		12340AB41705D7B70022A7ED /* HCXDoMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXDoMenu.m; sourceTree = "<group>"; };
+		12340AE11706593B0022A7ED /* stackimport.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = stackimport.xcodeproj; path = stackimport/stackimport.xcodeproj; sourceTree = "<group>"; };
+		12340AE717065A500022A7ED /* HCX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HCX.entitlements; sourceTree = "<group>"; };
+		12775F7217202C92002FB1E5 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		12775F7317202C92002FB1E5 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		12775F7A17221F12002FB1E5 /* HCXPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXPictureView.h; sourceTree = "<group>"; };
+		12775F7B17221F12002FB1E5 /* HCXPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXPictureView.m; sourceTree = "<group>"; };
+		12775F7E1722359C002FB1E5 /* HCXScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXScript.h; sourceTree = "<group>"; };
+		12775F7F1722359C002FB1E5 /* HCXScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXScript.m; sourceTree = "<group>"; };
+		12775F8117225649002FB1E5 /* HCXMakeMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXMakeMenu.h; sourceTree = "<group>"; };
+		12775F821722564A002FB1E5 /* HCXMakeMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXMakeMenu.m; sourceTree = "<group>"; };
+		12775F8417225714002FB1E5 /* HCXUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXUIButton.h; sourceTree = "<group>"; };
+		12775F8517225715002FB1E5 /* HCXUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXUIButton.m; sourceTree = "<group>"; };
+		12775F8717228568002FB1E5 /* HCXUIPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXUIPopup.h; sourceTree = "<group>"; };
+		12775F8817228569002FB1E5 /* HCXUIPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXUIPopup.m; sourceTree = "<group>"; };
+		1297C84C1723525F00EBAFF7 /* tb_Browse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_Browse.png; sourceTree = "<group>"; };
+		1297C84D1723525F00EBAFF7 /* tb_Brush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_Brush.png; sourceTree = "<group>"; };
+		1297C84E1723525F00EBAFF7 /* tb_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_Button.png; sourceTree = "<group>"; };
+		1297C84F1723525F00EBAFF7 /* tb_Eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_Eraser.png; sourceTree = "<group>"; };
+		1297C8501723525F00EBAFF7 /* tb_Field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_Field.png; sourceTree = "<group>"; };
+		1297C8511723525F00EBAFF7 /* tb_Lasso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_Lasso.png; sourceTree = "<group>"; };
+		1297C8521723525F00EBAFF7 /* tb_Line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_Line.png; sourceTree = "<group>"; };
+		1297C8531723525F00EBAFF7 /* tb_MagicWand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_MagicWand.png; sourceTree = "<group>"; };
+		1297C8541723525F00EBAFF7 /* tb_Oval.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_Oval.png; sourceTree = "<group>"; };
+		1297C8551723525F00EBAFF7 /* tb_PaintBucket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_PaintBucket.png; sourceTree = "<group>"; };
+		1297C8561723525F00EBAFF7 /* tb_Pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_Pencil.png; sourceTree = "<group>"; };
+		1297C8571723525F00EBAFF7 /* tb_Rect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_Rect.png; sourceTree = "<group>"; };
+		1297C8581723525F00EBAFF7 /* tb_Select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_Select.png; sourceTree = "<group>"; };
+		1297C8591723525F00EBAFF7 /* tb_Type.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_Type.png; sourceTree = "<group>"; };
+		1297C869172355A400EBAFF7 /* HCXToolBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXToolBtn.h; sourceTree = "<group>"; };
+		1297C86A172355A400EBAFF7 /* HCXToolBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXToolBtn.m; sourceTree = "<group>"; };
+		1297C86C1723732E00EBAFF7 /* HCXDraggableToolBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXDraggableToolBtn.h; sourceTree = "<group>"; };
+		1297C86D1723732E00EBAFF7 /* HCXDraggableToolBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXDraggableToolBtn.m; sourceTree = "<group>"; };
+		1297C8731723D76700EBAFF7 /* HCXAuthoringPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXAuthoringPanel.h; sourceTree = "<group>"; };
+		1297C8741723D76700EBAFF7 /* HCXAuthoringPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXAuthoringPanel.m; sourceTree = "<group>"; };
+		1297C8791726C16500EBAFF7 /* HCXInternational.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXInternational.h; sourceTree = "<group>"; };
+		1297C87A1726C16700EBAFF7 /* HCXInternational.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXInternational.m; sourceTree = "<group>"; };
+		129A2F75171EF0DE0089E3AF /* StackEnv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackEnv.h; sourceTree = "<group>"; };
+		129A2F76171EF0DE0089E3AF /* StackEnv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackEnv.m; sourceTree = "<group>"; };
+		12FEEF101715BCBD00E03D12 /* HCXReadXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXReadXML.h; sourceTree = "<group>"; };
+		12FEEF111715BCBD00E03D12 /* HCXReadXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXReadXML.m; sourceTree = "<group>"; };
+		12FEEF141715BD9C00E03D12 /* HCXStackData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXStackData.h; sourceTree = "<group>"; };
+		12FEEF151715BD9C00E03D12 /* HCXStackData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXStackData.m; sourceTree = "<group>"; };
+		12FEEF1717195B2D00E03D12 /* HCXObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXObject.h; sourceTree = "<group>"; };
+		12FEEF1817195B2D00E03D12 /* HCXObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXObject.m; sourceTree = "<group>"; };
+		12FEEF1A17195B3E00E03D12 /* HCXBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXBackground.h; sourceTree = "<group>"; };
+		12FEEF1B17195B3E00E03D12 /* HCXBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXBackground.m; sourceTree = "<group>"; };
+		12FEEF1D17195B4800E03D12 /* HCXCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXCard.h; sourceTree = "<group>"; };
+		12FEEF1E17195B4800E03D12 /* HCXCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXCard.m; sourceTree = "<group>"; };
+		12FEEF201719655200E03D12 /* HCXCardBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXCardBase.h; sourceTree = "<group>"; };
+		12FEEF211719655200E03D12 /* HCXCardBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXCardBase.m; sourceTree = "<group>"; };
+		12FEEF23171965A400E03D12 /* HCXPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXPart.h; sourceTree = "<group>"; };
+		12FEEF24171965A400E03D12 /* HCXPart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXPart.m; sourceTree = "<group>"; };
+		12FEEF26171965BA00E03D12 /* HCXButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXButton.h; sourceTree = "<group>"; };
+		12FEEF27171965BA00E03D12 /* HCXButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXButton.m; sourceTree = "<group>"; };
+		12FEEF29171965C300E03D12 /* HCXField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXField.h; sourceTree = "<group>"; };
+		12FEEF2A171965C300E03D12 /* HCXField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXField.m; sourceTree = "<group>"; };
+		12FEEF2C171965CB00E03D12 /* HCXWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXWindow.h; sourceTree = "<group>"; };
+		12FEEF2D171965CC00E03D12 /* HCXWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXWindow.m; sourceTree = "<group>"; };
+		12FEEF2F171966B300E03D12 /* HCXPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXPalette.h; sourceTree = "<group>"; };
+		12FEEF30171966B300E03D12 /* HCXPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXPalette.m; sourceTree = "<group>"; };
+		12FEEF32171966D400E03D12 /* HCXMsgWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXMsgWindow.h; sourceTree = "<group>"; };
+		12FEEF33171966D400E03D12 /* HCXMsgWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXMsgWindow.m; sourceTree = "<group>"; };
+		12FEEF3517198A7100E03D12 /* HCXBgPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXBgPart.h; sourceTree = "<group>"; };
+		12FEEF3617198A7100E03D12 /* HCXBgPart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXBgPart.m; sourceTree = "<group>"; };
+		12FEEF3817198C2D00E03D12 /* HCXRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXRes.h; sourceTree = "<group>"; };
+		12FEEF3917198C2D00E03D12 /* HCXRes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXRes.m; sourceTree = "<group>"; };
+		12FEEF3B1719AE9000E03D12 /* HCXExternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXExternal.h; sourceTree = "<group>"; };
+		12FEEF3C1719AE9100E03D12 /* HCXExternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXExternal.m; sourceTree = "<group>"; };
+		12FEEF3E171A38F100E03D12 /* HCXResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXResource.h; sourceTree = "<group>"; };
+		12FEEF3F171A38F200E03D12 /* HCXResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXResource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,9 +174,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		120E6E4A1722CD1F00053FF0 /* ToolPanel */ = {
+			isa = PBXGroup;
+			children = (
+				120E6E471722CD1A00053FF0 /* HCXToolPanel.h */,
+				120E6E481722CD1A00053FF0 /* HCXToolPanel.m */,
+				120E6E4B1722D38F00053FF0 /* HCXToolPanelView.h */,
+				120E6E4C1722D38F00053FF0 /* HCXToolPanelView.m */,
+				1297C869172355A400EBAFF7 /* HCXToolBtn.h */,
+				1297C86A172355A400EBAFF7 /* HCXToolBtn.m */,
+				1297C86C1723732E00EBAFF7 /* HCXDraggableToolBtn.h */,
+				1297C86D1723732E00EBAFF7 /* HCXDraggableToolBtn.m */,
+			);
+			name = ToolPanel;
+			sourceTree = "<group>";
+		};
 		12340A86170490620022A7ED = {
 			isa = PBXGroup;
 			children = (
+				12340AE11706593B0022A7ED /* stackimport.xcodeproj */,
 				12340A98170490620022A7ED /* HCX */,
 				12340A91170490620022A7ED /* Frameworks */,
 				12340A90170490620022A7ED /* Products */,
@@ -82,9 +229,21 @@
 		12340A98170490620022A7ED /* HCX */ = {
 			isa = PBXGroup;
 			children = (
+				12775F7D17223588002FB1E5 /* Script */,
+				129A2F73171EF0C00089E3AF /* UI */,
+				120E6E4A1722CD1F00053FF0 /* ToolPanel */,
+				1297C8721723D15200EBAFF7 /* AuthoringPanel */,
+				12FEEF131715BD8400E03D12 /* StackData */,
+				12FEEF0E1715BC9900E03D12 /* XMLread */,
+				12340AE717065A500022A7ED /* HCX.entitlements */,
 				12340AA4170490630022A7ED /* HCXAppDelegate.h */,
 				12340AA5170490630022A7ED /* HCXAppDelegate.m */,
-				12340AA7170490630022A7ED /* MainMenu.xib */,
+				12775F8117225649002FB1E5 /* HCXMakeMenu.h */,
+				12775F821722564A002FB1E5 /* HCXMakeMenu.m */,
+				12340AB31705D7B70022A7ED /* HCXDoMenu.h */,
+				12340AB41705D7B70022A7ED /* HCXDoMenu.m */,
+				1297C8791726C16500EBAFF7 /* HCXInternational.h */,
+				1297C87A1726C16700EBAFF7 /* HCXInternational.m */,
 				12340A99170490620022A7ED /* Supporting Files */,
 			);
 			path = HCX;
@@ -93,6 +252,20 @@
 		12340A99170490620022A7ED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1297C84C1723525F00EBAFF7 /* tb_Browse.png */,
+				1297C84D1723525F00EBAFF7 /* tb_Brush.png */,
+				1297C84E1723525F00EBAFF7 /* tb_Button.png */,
+				1297C84F1723525F00EBAFF7 /* tb_Eraser.png */,
+				1297C8501723525F00EBAFF7 /* tb_Field.png */,
+				1297C8511723525F00EBAFF7 /* tb_Lasso.png */,
+				1297C8521723525F00EBAFF7 /* tb_Line.png */,
+				1297C8531723525F00EBAFF7 /* tb_MagicWand.png */,
+				1297C8541723525F00EBAFF7 /* tb_Oval.png */,
+				1297C8551723525F00EBAFF7 /* tb_PaintBucket.png */,
+				1297C8561723525F00EBAFF7 /* tb_Pencil.png */,
+				1297C8571723525F00EBAFF7 /* tb_Rect.png */,
+				1297C8581723525F00EBAFF7 /* tb_Select.png */,
+				1297C8591723525F00EBAFF7 /* tb_Type.png */,
 				12340A9A170490620022A7ED /* HCX-Info.plist */,
 				12340A9B170490630022A7ED /* InfoPlist.strings */,
 				12340A9E170490630022A7ED /* main.m */,
@@ -100,6 +273,97 @@
 				12340AA1170490630022A7ED /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12340AE21706593B0022A7ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12340AE61706593B0022A7ED /* stackimport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12775F7D17223588002FB1E5 /* Script */ = {
+			isa = PBXGroup;
+			children = (
+				12775F7E1722359C002FB1E5 /* HCXScript.h */,
+				12775F7F1722359C002FB1E5 /* HCXScript.m */,
+			);
+			name = Script;
+			sourceTree = "<group>";
+		};
+		1297C8721723D15200EBAFF7 /* AuthoringPanel */ = {
+			isa = PBXGroup;
+			children = (
+				1297C8731723D76700EBAFF7 /* HCXAuthoringPanel.h */,
+				1297C8741723D76700EBAFF7 /* HCXAuthoringPanel.m */,
+			);
+			name = AuthoringPanel;
+			sourceTree = "<group>";
+		};
+		129A2F73171EF0C00089E3AF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				129A2F75171EF0DE0089E3AF /* StackEnv.h */,
+				129A2F76171EF0DE0089E3AF /* StackEnv.m */,
+				12775F7217202C92002FB1E5 /* CardView.h */,
+				12775F7317202C92002FB1E5 /* CardView.m */,
+				12775F7A17221F12002FB1E5 /* HCXPictureView.h */,
+				12775F7B17221F12002FB1E5 /* HCXPictureView.m */,
+				12775F8417225714002FB1E5 /* HCXUIButton.h */,
+				12775F8517225715002FB1E5 /* HCXUIButton.m */,
+				12775F8717228568002FB1E5 /* HCXUIPopup.h */,
+				12775F8817228569002FB1E5 /* HCXUIPopup.m */,
+				120E6E431722AF7600053FF0 /* HCXUIField.h */,
+				120E6E441722AF7600053FF0 /* HCXUIField.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		12FEEF0E1715BC9900E03D12 /* XMLread */ = {
+			isa = PBXGroup;
+			children = (
+				12FEEF101715BCBD00E03D12 /* HCXReadXML.h */,
+				12FEEF111715BCBD00E03D12 /* HCXReadXML.m */,
+			);
+			name = XMLread;
+			sourceTree = "<group>";
+		};
+		12FEEF131715BD8400E03D12 /* StackData */ = {
+			isa = PBXGroup;
+			children = (
+				12FEEF1717195B2D00E03D12 /* HCXObject.h */,
+				12FEEF1817195B2D00E03D12 /* HCXObject.m */,
+				12FEEF141715BD9C00E03D12 /* HCXStackData.h */,
+				12FEEF151715BD9C00E03D12 /* HCXStackData.m */,
+				12FEEF201719655200E03D12 /* HCXCardBase.h */,
+				12FEEF211719655200E03D12 /* HCXCardBase.m */,
+				12FEEF1A17195B3E00E03D12 /* HCXBackground.h */,
+				12FEEF1B17195B3E00E03D12 /* HCXBackground.m */,
+				12FEEF1D17195B4800E03D12 /* HCXCard.h */,
+				12FEEF1E17195B4800E03D12 /* HCXCard.m */,
+				12FEEF23171965A400E03D12 /* HCXPart.h */,
+				12FEEF24171965A400E03D12 /* HCXPart.m */,
+				12FEEF26171965BA00E03D12 /* HCXButton.h */,
+				12FEEF27171965BA00E03D12 /* HCXButton.m */,
+				12FEEF29171965C300E03D12 /* HCXField.h */,
+				12FEEF2A171965C300E03D12 /* HCXField.m */,
+				12FEEF2C171965CB00E03D12 /* HCXWindow.h */,
+				12FEEF2D171965CC00E03D12 /* HCXWindow.m */,
+				12FEEF2F171966B300E03D12 /* HCXPalette.h */,
+				12FEEF30171966B300E03D12 /* HCXPalette.m */,
+				12FEEF32171966D400E03D12 /* HCXMsgWindow.h */,
+				12FEEF33171966D400E03D12 /* HCXMsgWindow.m */,
+				12FEEF3517198A7100E03D12 /* HCXBgPart.h */,
+				12FEEF3617198A7100E03D12 /* HCXBgPart.m */,
+				12FEEF3E171A38F100E03D12 /* HCXResource.h */,
+				12FEEF3F171A38F200E03D12 /* HCXResource.m */,
+				12FEEF3817198C2D00E03D12 /* HCXRes.h */,
+				12FEEF3917198C2D00E03D12 /* HCXRes.m */,
+				12FEEF3B1719AE9000E03D12 /* HCXExternal.h */,
+				12FEEF3C1719AE9100E03D12 /* HCXExternal.m */,
+			);
+			name = StackData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,12 +406,28 @@
 			mainGroup = 12340A86170490620022A7ED;
 			productRefGroup = 12340A90170490620022A7ED /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 12340AE21706593B0022A7ED /* Products */;
+					ProjectRef = 12340AE11706593B0022A7ED /* stackimport.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				12340A8E170490620022A7ED /* HCX */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		12340AE61706593B0022A7ED /* stackimport.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = stackimport.app;
+			remoteRef = 12340AE51706593B0022A7ED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		12340A8D170490620022A7ED /* Resources */ = {
@@ -156,7 +436,20 @@
 			files = (
 				12340A9D170490630022A7ED /* InfoPlist.strings in Resources */,
 				12340AA3170490630022A7ED /* Credits.rtf in Resources */,
-				12340AA9170490630022A7ED /* MainMenu.xib in Resources */,
+				1297C85A1723525F00EBAFF7 /* tb_Browse.png in Resources */,
+				1297C85B1723525F00EBAFF7 /* tb_Brush.png in Resources */,
+				1297C85C1723525F00EBAFF7 /* tb_Button.png in Resources */,
+				1297C85D1723525F00EBAFF7 /* tb_Eraser.png in Resources */,
+				1297C85E1723525F00EBAFF7 /* tb_Field.png in Resources */,
+				1297C85F1723525F00EBAFF7 /* tb_Lasso.png in Resources */,
+				1297C8601723525F00EBAFF7 /* tb_Line.png in Resources */,
+				1297C8611723525F00EBAFF7 /* tb_MagicWand.png in Resources */,
+				1297C8621723525F00EBAFF7 /* tb_Oval.png in Resources */,
+				1297C8631723525F00EBAFF7 /* tb_PaintBucket.png in Resources */,
+				1297C8641723525F00EBAFF7 /* tb_Pencil.png in Resources */,
+				1297C8651723525F00EBAFF7 /* tb_Rect.png in Resources */,
+				1297C8661723525F00EBAFF7 /* tb_Select.png in Resources */,
+				1297C8671723525F00EBAFF7 /* tb_Type.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +462,37 @@
 			files = (
 				12340A9F170490630022A7ED /* main.m in Sources */,
 				12340AA6170490630022A7ED /* HCXAppDelegate.m in Sources */,
+				12340AB51705D7B70022A7ED /* HCXDoMenu.m in Sources */,
+				12FEEF121715BCBD00E03D12 /* HCXReadXML.m in Sources */,
+				12FEEF161715BD9C00E03D12 /* HCXStackData.m in Sources */,
+				12FEEF1917195B2D00E03D12 /* HCXObject.m in Sources */,
+				12FEEF1C17195B3E00E03D12 /* HCXBackground.m in Sources */,
+				12FEEF1F17195B4800E03D12 /* HCXCard.m in Sources */,
+				12FEEF221719655200E03D12 /* HCXCardBase.m in Sources */,
+				12FEEF25171965A400E03D12 /* HCXPart.m in Sources */,
+				12FEEF28171965BA00E03D12 /* HCXButton.m in Sources */,
+				12FEEF2B171965C300E03D12 /* HCXField.m in Sources */,
+				12FEEF2E171965CC00E03D12 /* HCXWindow.m in Sources */,
+				12FEEF31171966B300E03D12 /* HCXPalette.m in Sources */,
+				12FEEF34171966D500E03D12 /* HCXMsgWindow.m in Sources */,
+				12FEEF3717198A7200E03D12 /* HCXBgPart.m in Sources */,
+				12FEEF3A17198C2E00E03D12 /* HCXRes.m in Sources */,
+				12FEEF3D1719AE9200E03D12 /* HCXExternal.m in Sources */,
+				12FEEF40171A38F200E03D12 /* HCXResource.m in Sources */,
+				129A2F77171EF0DE0089E3AF /* StackEnv.m in Sources */,
+				12775F7417202C92002FB1E5 /* CardView.m in Sources */,
+				12775F7C17221F12002FB1E5 /* HCXPictureView.m in Sources */,
+				12775F801722359C002FB1E5 /* HCXScript.m in Sources */,
+				12775F831722564B002FB1E5 /* HCXMakeMenu.m in Sources */,
+				12775F8617225715002FB1E5 /* HCXUIButton.m in Sources */,
+				12775F8917228569002FB1E5 /* HCXUIPopup.m in Sources */,
+				120E6E451722AF7600053FF0 /* HCXUIField.m in Sources */,
+				120E6E491722CD1A00053FF0 /* HCXToolPanel.m in Sources */,
+				120E6E4D1722D38F00053FF0 /* HCXToolPanelView.m in Sources */,
+				1297C86B172355A400EBAFF7 /* HCXToolBtn.m in Sources */,
+				1297C86E1723732E00EBAFF7 /* HCXDraggableToolBtn.m in Sources */,
+				1297C8751723D76700EBAFF7 /* HCXAuthoringPanel.m in Sources */,
+				1297C87B1726C16800EBAFF7 /* HCXInternational.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +513,6 @@
 				12340AA2170490630022A7ED /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		12340AA7170490630022A7ED /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				12340AA8170490630022A7ED /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -229,7 +545,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -256,7 +572,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -264,10 +580,12 @@
 		12340AAD170490630022A7ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HCX/HCX.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HCX/HCX-Prefix.pch";
 				INFOPLIST_FILE = "HCX/HCX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -276,10 +594,12 @@
 		12340AAE170490630022A7ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HCX/HCX.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HCX/HCX-Prefix.pch";
 				INFOPLIST_FILE = "HCX/HCX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -304,6 +624,7 @@
 				12340AAE170490630022A7ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
